@@ -12,5 +12,24 @@ namespace Group_basics
         {
             return n1 + n2;
         }
+
+
+        public static int SubNumbers(int n1, int n2)
+        {
+            return n1 - n2;
+        }
+        public static int MulNumbers(int n1, int n2)
+        {
+            return n1 * n2;
+        }
+        public static float DivNumbers(int n1, int n2)
+        {
+            return (float)n1 / n2;
+        }
+        public static int Reminder(int n1, int n2)
+        {
+            return n1 % n2;
+        }
+
     }
 }
